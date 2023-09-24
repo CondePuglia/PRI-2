@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.containerr {
+  width: 80%;
+  min-height: 100vh;
+}
+
+.footer {
+  border: none;
+  margin-top: 0;
+  padding-top: 0;
+}
+.section-1 {
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.625rem;
+  font-size: 2.5rem;
+}
+.ti {
+  font-size: 3rem;
+}
+.section-2 {
+  min-height: 70vh;
+  border-radius: 0.625rem;
+  display: flex;
+}
+#form {
+  min-height: 70vh;
+}
+
+.hidden {
+  display: none;
+  margin: 3px 0 0 1px;
+  color: red;
+}
+
+/* Media query para telas menores que 768px (dispositivos móveis) */
+@media (max-width: 992px) {
+  .section-1 {
+    font-size: 2.5rem;
+  }
+  .ti {
+    font-size: 2rem;
+  }
+
+  #form {
+    width: 100%;
+  }
+  .btns {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cadastrar,
+  .limpar {
+    margin-bottom: 0.625rem;
+    width: 100%;
+  }
+
+  .cadastrar-btn,
+  .limpar-btn {
+    width: 100%;
+  }
+
+  .baixo {
+    margin: 1rem;
+    display: flex;
+    font-size: 1rem;
+  }
+
+  .coluu {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media (max-width: 768px) {
+  .section-1 {
+    font-size: 2.5rem;
+  }
+  .ti {
+    font-size: 2rem;
+  }
+
+  #form {
+    width: 100%;
+  }
+  .btns {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cadastrar,
+  .limpar {
+    margin-bottom: 0.625rem;
+    width: 100%;
+  }
+
+  .cadastrar-btn,
+  .limpar-btn {
+    width: 100%;
+  }
+
+  .baixo {
+    margin: 1rem;
+    display: flex;
+    font-size: 1rem;
+  }
+
+  .coluu {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.insert{
+  height: 50vh;
+}
+/* Media query para telas maiores ou iguais a 992px */
+@media (min-width: 993px) {
+  .section-1,
+  .ti {
+    /* Remove as propriedades de font-size das media queries anteriores */
+    font-size: 3rem;
+  }
+
+  .btns,
+  .cadastrar,
+  .cadastrar-btn,
+  .limpar,
+  .limpar-btn,
+  .baixo,
+  .coluu {
+  }
+
+  
+}
+.font{
+  font-size: 15rem;
+}
