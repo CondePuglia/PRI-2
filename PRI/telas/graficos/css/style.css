@@ -1,0 +1,8 @@
+.maior{
+    height: 100vh;
+}
+
+.time{
+    transition-duration: 1500ms;
+transition-property: margin-right;
+}
